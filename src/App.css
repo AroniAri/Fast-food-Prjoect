@@ -2,6 +2,11 @@
   transition: background-color 0.3s ease;
 }
 
+.card-img-top {
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* Ensure the image fits nicely */
+}
+
 .dark-mode {
   background-color: #333;
   color: #fff;
@@ -18,3 +23,5 @@
 .card-body {
   text-align: center;
 }
+
+
